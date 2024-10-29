@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    max-width: 1150px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.site-header {
+    width: 100%;
+    color: black;
+    padding: 20px;
+    box-sizing: border-box;
+    background: white;
+
+}
+
+.h-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.h-logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.h-menu {
+    flex-grow: 3;
+}
+
+.mitem {
+    list-style: none;
+}
+
+.mlink {
+    text-decoration: none;
+    color: black;
+    font-weight: light;
+    text-transform: uppercase;
+    margin-right: 15px;
+}
+
+.mlink:hover {
+    color: #555252;
+}
+
+.logo {
+    margin-right: 15px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+.prewiew-product {
+    padding: 100px 0;
+    background: url(img/preview.jpg);
+    background-size: cover;
+    background-position:  center;
+}
+
+.prew-title {
+    font-size: 30px;
+}
+
+.prew-description, .prew-title {
+    color: white;
+    text-align: center;
+}
+
+.product-cont {
+    padding: 50px 0;
+}
+
+.products-title, .products-description {
+    color: #262626;
+    text-align: center
+}
+
+.product {
+    background: white;
+    padding: 25px;
+    margin-top: 45px;
+    width: 25%;
+    border: 1px black solid;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.product-link {
+    color:white;
+    text-decoration: none;
+}
+
+.product-link:hover {
+    color: #555252;
+}
+
+.product-button {
+    background-color: #8193d8;
+    text-align: center;
+    padding: 10px 70px;
+    border: 1px black solid;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.products-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.product-title, .product-text {
+    margin-bottom: 10px;
+}
+
+
+.site-footer {
+    background: url(img/footer.png);
+    background-size: cover;
+    padding:  60px 0;
+}
+
+.copiright {
+    color: white;
+}
+
+.site-footer .container {
+    text-align: center;
+}
+
+.social-networks {
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
